@@ -1,3 +1,9 @@
+/* * High-Performance Sudoku Solver
+ * Author: Aditya Bhatnagar
+ * Algorithm: Donald Knuth's Dancing Links (DLX)
+ * Description: An optimized C++ implementation for solving 
+ * complex 9x9 Sudoku grids via Exact Cover.
+ */
 #include <iostream>
 #include <math.h>
 #include <string>
@@ -318,3 +324,4 @@ int main()
 
     return 0;
 }
+
